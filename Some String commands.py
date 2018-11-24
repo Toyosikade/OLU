@@ -13,7 +13,7 @@ print (len("string"))
 #########################################################################################################################################
 
 # to print out only a specific chunk from the string we have:
-print (string[2:8])
+print ("string"[2:8])
 
 # the above statement prints out a list that starts from the second index and ends
 #at the 7th index
@@ -22,7 +22,7 @@ print (string[2:8])
 
 print("Example 1: ")
 
-Word = "Singingiswhatidobest"   #a given string is assigned to word
+word = "Singingiswhatidobest"   #a given string is assigned to word
 print(word[0:5])                #this prints out the the character in the first index up to the forth index
 
 print("Example 2: ")
@@ -33,4 +33,20 @@ print("Example 3: ")
 print(word[0:])            #this prints all of the characters in the string
 print(word[:])             # beacuse where to start and end wasnt specified, the whole string is printed out.
 print(word[:9])            # this prints out all the characters stored in each index including the 9th index then it stops.
-        
+
+
+
+################################################################################################
+print ("Example 4:")
+
+astring = "Hello World"
+print (astring.upper()) #this prints a given string in upper case because the upper function is called
+print (astring.lower()) #this prints a given string in lower case because the lower function is called
+
+#################################################################################################
+print ("Example 5:")
+
+aCompleteSentence = "I#am#because#we#are"
+print (aCompleteSentence.replace("#", " ")) #this replaces # with space 
+aCompleteSentence = "$$$$$$$$$ I love God! $$$$$$"
+print (aCompleteSentence.strip('$'))  #prints out I love God
